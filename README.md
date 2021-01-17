@@ -1,6 +1,14 @@
 # with_Tweepy
  Scrap tweets from twitter using Tweepy
 
+Purpose of this project is to extract tweets from specific user in twitter. 
+From the extraction, tweets will be cleaned up to have only alphanumeric characters.
+
+Once cleaned, each words in the tweets will be separated to anaylse. 
+
+At the end, top words tweeted and people mentioned will be gathered and presented in a graph with their respective counts. 
+
+
 First, apply to be a developer to get API key and API token.
 link: developer.twitter.com
 
