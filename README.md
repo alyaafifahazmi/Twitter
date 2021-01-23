@@ -1,4 +1,4 @@
-# with_Tweepy
+# with_username
  Scrap tweets from twitter using Tweepy
 
 Purpose of this project is to extract tweets from specific user in twitter. 
