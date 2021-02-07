@@ -86,7 +86,7 @@ From the graph, we can see that most used languages are english (en), indonesian
 
 ## Data Cleaning
 
-After getting the data, I cleaned data using ***regular expression (re)*** to give more accurate sentiment analysis and lemmetize the words to get more accuarate used words. 
+After getting the data, I cleaned data using ***regular expression (re)*** to give more accurate sentiment analysis and lemmetize the words to get relevant most used words. 
 
 * Removed mentions/@
 * Removed RT words
@@ -111,7 +111,7 @@ Removed words that I find irrelevant such as 'de' and 'amp'.
 
 ## Top People Mentioned
 
-Using ***spacy*** to categorize the words following its cluster as 'person'.
+Using ***spacy*** to categorize the words following its cluster('person').
 
 ![Top people mentioned](https://github.com/alyaafifahazmi/twitter/blob/Introduction/Top%20people%20mentioned.png)
 
@@ -119,7 +119,7 @@ However, this analysis seems irrelevant due to many languages used other than en
 
 This spacy's language I have used was for english language. 
 
-Hence, this analysis is irrelevant/not needed or more languages should be added to my analysis. 
+Hence, this analysis is irrelevant or more languages should be added to my analysis. 
 
 
 ## Sentiment Analysis
